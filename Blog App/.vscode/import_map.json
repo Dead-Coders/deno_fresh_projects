@@ -1,0 +1,16 @@
+{
+  "scopes": {
+    "THIS FILE EXISTS ONLY FOR VSCODE! IT IS NOT USED AT RUNTIME": {}
+  },
+  "imports": {
+    "$fresh/": "https://raw.githubusercontent.com/denoland/fresh/60220dd33b5b0f6b5c72927c933dbc32a3c4734e/",
+    "preact": "https://esm.sh/preact@10.20.1",
+    "preact/": "https://esm.sh/preact@10.20.1/",
+    "$std/": "https://deno.land/std@0.221.0/",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.6.0",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.3",
+    "tailwindcss": "npm:tailwindcss@3.4.3",
+    "tailwindcss/": "npm:/tailwindcss@3.4.3/",
+    "tailwindcss/plugin": "npm:/tailwindcss@3.4.3/plugin.js"
+  }
+}

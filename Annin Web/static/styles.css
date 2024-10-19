@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a:not(:has(*)):not(#navbar-list a) {
+    @apply font-bold underline;
+  }
+}

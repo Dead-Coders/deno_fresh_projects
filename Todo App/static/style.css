@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: monospace;
+  background: #ddd;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto 0.3rem;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0.25rem auto 4rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input,
+label {
+  margin: 0.25rem;
+}
+
+.todos {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  align-content: left;
+  align-items: left;
+  margin: 0.4rem 0;
+}
+
+.item-todo {
+  width: 140%;
+  padding-right: 0.3rem;
+}
+
+.x-button {
+  margin-left: 0.5rem;
+  align-content: left;
+}
+
+.todo-count {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.standalone-counter {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.home-link {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.counter-title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 0 auto 4rem;
+}
+
+.counter button {
+  font-size: 1.5rem;
+  margin: 0rem 0.5rem;
+}
+
+.counter h2 {
+  margin: 0.25rem auto 2rem;
+}
